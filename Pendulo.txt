@@ -1,0 +1,14 @@
+def ax(x,vy,t):
+  return (2*omega*math.sin(lamb)*vy)-(((g/l)-((omega**2)*(math.sin(lamb)**2)))*x)
+
+def ay(y,vx,t):
+  return (-2*omega*math.sin(lamb)*vx)-(((g/l)-(omega**2))*y)
+
+
+
+def ax(x,vy,t):
+  return (2*omega*math.sin(lamb)*vy)-((g/l)*x)
+
+def ay(y,vx,t):
+  return (-2*omega*math.sin(lamb)*vx)-((g/l)*y)
+
